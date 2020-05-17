@@ -1,7 +1,7 @@
 class PigLatinizer
   
   def vowel(character)
-    character.match(/[aeiiouAEIOU]/)
+    character.match(/[aeiouAEIOU]/)
   end
   
   def Piglatinize(word)
