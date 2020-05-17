@@ -22,4 +22,4 @@ class Piglatinizer
       word = word.slice(1..-1) + word.slice(0)
       "#{word}ay"
     end
-end
+  end
