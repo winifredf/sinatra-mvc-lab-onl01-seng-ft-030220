@@ -23,3 +23,4 @@ class Piglatinizer
       "#{word}ay"
     end
   end
+end
