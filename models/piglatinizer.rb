@@ -4,7 +4,7 @@ class PigLatinizer
     character.match(/[aeiouAEIOU]/)
   end
   
-  def Piglatinize(word)
+  def piglatinize(word)
     word.gsub(/[^a-z0-9\s]/i, '')
     if word.split(" ").length == 1
       piglatinize_word(word)
