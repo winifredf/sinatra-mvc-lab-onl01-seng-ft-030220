@@ -19,7 +19,7 @@ class PigLatinizer
     elsif !vowel(word[0]) && !vowel(word[1]) && !vowel(word[2])
       word = word.slice(3..-1) + word.slice(0, 3)
       "#{word}ay"
-    elsif !vowel(word[0])
+    elsif !vowel(word[0]) && !vowel(word[1])
       word = word.slice(1..-1) + word.slice(0)
       "#{word}ay"
     end
