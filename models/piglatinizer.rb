@@ -29,7 +29,7 @@ class PigLatinizer
   end
   
   def to_pig_latin(words)
-    result = words+split(" ").map do |word|
+    result = words.split(" ").map do |word|
       piglatinize(word)
     end
     result.join(" ")
