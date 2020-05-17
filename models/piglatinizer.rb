@@ -16,7 +16,7 @@ class PigLatinizer
   def piglatinize_word(word)
     if vowel(word[0])
       "#{word}way"
-    elsif !vowel(word[0]) && !vowel(word[1])
+    elsif !vowel(word[0]) && !vowel(word[1]) && !vowel(word[2])
       word = word.slice(3..-1) + word.slice(0, 3)
       "#{word}ay"
     elsif !vowel(word[0])
